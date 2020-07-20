@@ -1,0 +1,47 @@
+head {
+  display: none;
+}
+
+body {
+  font-family: 'Source Sans Pro', 'sans-serif';
+  color: #222;
+  font-size: 4rem;
+  background-color: #e0e0e0;
+  display: block;
+  margin: 8px;
+}
+
+.greeting {
+  margin: 5%
+}
+
+.greeting p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  background-color: gold;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.social {
+  margin: 5%;
+  padding: 0;
+  list-style: none;
+}
+
+.social li {
+  display: inline;
+  margin-left: 5%;
+}
+
+.social li:first-child {
+  margin-left: 0;
+}
+
+a {
+  color: #222;
+}
+
+.fa:hover {
+  color:#706d6d;
+}
