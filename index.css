@@ -32,8 +32,28 @@ body {
   margin-bottom: 2%;
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.iplusone {
+  height: 3rem;
+}
+
+.bite {
+  height: 5rem;
+}
+
+.likeminds {
+  height: 6rem;
+}
+
 .social {
-  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25% 5% 5% 5%;
   padding: 0;
   list-style: none;
 }
