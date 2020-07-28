@@ -13,6 +13,10 @@ body {
   justify-content: center
 }
 
+.masterContainer {
+  max-width: 700px;
+}
+
 .reactContainer {
   display: flex;
   justify-content: flex-end;
@@ -43,6 +47,10 @@ body {
   align-items: baseline;
 }
 
+.logoContainer {
+  text-align: center;
+}
+
 .iplusone {
   height: 3rem;
 }
@@ -53,6 +61,23 @@ body {
 
 .likeminds {
   height: 6rem;
+}
+
+.stackContainer {
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  font-size: 2rem;
+}
+
+.stackContainer li {
+  font-family: monospace; 
+  display: flex; 
+  justify-content: center; 
+  border-style: solid;
+  border-width: thin; 
+  padding: .5rem; 
+  margin-bottom: .5rem
 }
 
 .social {
@@ -93,7 +118,7 @@ a {
     align-items: center;
   }
   
-  .stackContainer {
+  .projectContainer {
     margin-bottom: 10%;
   }
 }
@@ -110,7 +135,7 @@ a {
     align-items: center;
   }
 
-  .stackContainer {
+  .projectContainer {
     margin-bottom: 10%;
   }
 }
@@ -126,7 +151,7 @@ a {
     flex-direction: column;
     align-items: center;
   }
-  .stackContainer {
+  .projectContainer {
     margin-bottom: 10%;
   }
 } 
@@ -139,7 +164,7 @@ a {
     justify-content: space-around;
     align-items: baseline;
   }
-  .stackContainer {
+  .projectContainer {
     margin-bottom: 0;
   }
 } 
@@ -152,7 +177,7 @@ a {
     justify-content: space-around;
     align-items: baseline;
   }
-  .stackContainer {
+  .projectContainer {
     margin-bottom: 0;
   }
 }
